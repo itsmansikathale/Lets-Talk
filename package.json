@@ -1,0 +1,28 @@
+{
+  "name": "lets-talk",
+  "version": "1.0.0",
+  "description": "A chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmansikathale/Lets-Talk.git"
+  },
+  "keywords": [
+    "Chat",
+    "App"
+  ],
+  "author": "Mansi V. Kathale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmansikathale/Lets-Talk/issues"
+  },
+  "homepage": "https://github.com/itsmansikathale/Lets-Talk#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
